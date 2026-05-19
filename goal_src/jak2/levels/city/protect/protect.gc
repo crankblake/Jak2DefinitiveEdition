@@ -437,7 +437,7 @@
                       (set! (-> s4-2 spawn-pos quad) (-> s5-1 t-pos quad))
                       (quaternion-copy! (-> s4-2 quat) (-> s5-1 t-quat))
                       (set! (-> s4-2 max-guard) (-> s5-1 num-guard))
-                      (set! (-> s4-2 max-guard) (the-as uint 8))
+                      (set! (-> s4-2 max-guard) (the-as uint 6))
                       (set! (-> s4-2 turret?) #t)
                       (set! (-> s4-2 speeches?) #t)
                       (set! (-> s3-2 y) 0.0)
