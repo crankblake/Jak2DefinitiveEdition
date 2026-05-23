@@ -3248,6 +3248,7 @@
         :skip-to -1
         :on-set (lambda ((arg0 hal-sewer))
           (with-pp
+            (set-continue! *game-info* "hal2-wall2" #t)
             (let ((a1-0 (new 'stack-no-clear 'event-message-block)))
               (set! (-> a1-0 from) (process->ppointer pp))
               (set! (-> a1-0 num-params) 2)
